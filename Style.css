@@ -421,12 +421,12 @@ body {
 
 .title p {
     font-size: 1em;
-    width: 80%;
+    width: 100%;
 }
 
 .services .content .card {
     background: white;
-    width: 340px;
+    width: 100%;
     margin: 10px;
     padding: 25px;
     justify-content: center;
@@ -436,10 +436,9 @@ body {
     border-radius: 10px;
 
 }
-
-.services .content .card .service-icon {
-    color: #3a6cf4;
-    font-size: 8em;
+#experience .card .service-icon {
+    color: #1b2543;
+    font-size: 4em;
     text-align: center;
     transition: transform 0.5s ease;
 }
@@ -699,7 +698,7 @@ body {
         background: url(menu1.png)no-repeat;
         background-size: 30px;
         background-position: center;
-        mix-blend-mode: darken;
+        mix-blend-mode: exclusion;
         width: 40px;
         height: 40px;
         right: 0;
@@ -801,4 +800,11 @@ body {
 .reveal.active {
     transform: translateY(0);
     opacity: 1;
+}
+.forSkills li{
+    list-style-type: none;
+}
+.forSkills{
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

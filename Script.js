@@ -1,5 +1,11 @@
 
 //javascript for navigation bar effects on scroll
+window.onload = function () {
+  window.scrollTo(0, 0);
+  window.location.hash = '';
+};
+
+
 window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
     header.classList.toggle('sticky', window.scrollY > 0);
